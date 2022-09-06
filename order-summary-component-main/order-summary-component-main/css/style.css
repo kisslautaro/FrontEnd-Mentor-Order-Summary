@@ -1,0 +1,191 @@
+:root{
+    /* Colors */
+
+    --primaryPaleBlue: hsl(225, 100%, 94%);
+    --primaryBrigBue:hsl(245, 75%, 52%);
+    --neutralVeryPaleBlue:hsl(225, 100%, 98%);
+    --neutralDesaturatedBlue:hsl(224, 23%, 55%);
+    --neutralDarkBlue:hsl(223, 47%, 23%);
+
+    /* Font */
+
+    --font:'Red Hat Display', sans-serif;
+
+}
+
+html{
+    box-sizing: border-box;
+    font-size:  62.5%;
+    height: 100%;
+    
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+
+}
+
+body{
+    background-color:var(--primaryPaleBlue);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Global */    
+
+h1,
+p,
+a{
+   font-family: var(--font); 
+}
+
+
+/* Card */
+
+.card{
+    width: 35rem;
+    height: 49rem;
+    background-color: white;
+    border-radius: 1rem;
+    /* box-shadow: 0px 0px 40px 1px rgba(0,0,0,0.35); */
+   
+    
+}
+
+/* Card Img */
+
+.card__img img{
+    width: 100%;
+   border-top-left-radius: 1rem;
+   border-top-right-radius: 1rem;
+}
+
+/* Card Text */
+
+.card__text{
+    text-align: center;
+    
+}
+
+.card__text h1{    
+    margin-top: 3rem;
+    font-weight: 900;
+    color: #242f4b;
+}
+
+.card__text--p{
+    color: var(--neutralDesaturatedBlue);
+    margin: 0 auto;
+    width: 70%;
+    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
+
+/* Card Element */
+
+
+.card__element{
+    background-color: var(--neutralVeryPaleBlue);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    border-radius: 1rem;
+    max-width: 90%;
+    
+    
+}
+.card__element--icon{
+    display: inline;
+}
+.card__element--icon img{
+    width: 3rem;
+    margin: 1rem;
+    
+}
+
+.card__element--texts{
+    margin: 1rem 0;
+}
+.card__element--texts h1{
+    color: #242f4b;
+    font-size: 1.1rem;
+    font-weight: 900;
+    margin: 0;
+    display: inline;
+
+}
+.card__element--texts p{
+    
+    font-size: 1rem;
+    color: var(--neutralDesaturatedBlue);
+    font-weight: 700;
+    margin:.5rem 0 0 0;
+    
+    
+}
+
+.btn-change{
+    display: flex;
+    align-items: center;
+    margin-right: 1.54rem;
+}
+.card__element--change{
+    transition: all .3s ease;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--primaryBrigBue);
+}
+
+.card__element--change:hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: #776df1;
+}
+
+
+/* Buttons */
+.btns{
+    margin: 3rem auto;
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.card__btn--pay,
+.card__btn--cancel{
+    transition: all .3s ease;
+    padding: 1rem;
+    border-radius: .6rem;
+    border: none;
+    font-family: var(--font);
+    font-weight: 700;
+}
+
+.card__btn--pay{
+    background-color: var(--primaryBrigBue);
+    color: white;
+    box-shadow: 0 .8rem 1rem -1rem black
+
+}
+.card__btn--pay:hover{
+    background-color: #776df1;
+    cursor: pointer;
+}
+
+.card__btn--cancel{
+background-color: transparent;
+color: var(--neutralDesaturatedBlue);
+font-weight: 900;
+}
+
+
+.card__btn--cancel:hover{
+    color: var(--neutralDarkBlue);
+    cursor: pointer;
+}
+
