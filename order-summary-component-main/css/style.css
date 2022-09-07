@@ -45,8 +45,8 @@ a{
 /* Card */
 
 .card{
-    width: 60rem;
-    height: 70rem;
+    width: 48rem;
+    height: 67rem;
     background-color: white;
     border-radius: 1rem;
     /* box-shadow: 0px 0px 40px 1px rgba(0,0,0,0.35); */
@@ -81,7 +81,7 @@ a{
     margin: 0 auto;
     width: 70%;
     font-weight: 500;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     line-height: 1.7;
 }
 
@@ -160,17 +160,20 @@ a{
 .card__btn--pay,
 .card__btn--cancel{
     transition: all .3s ease;
-    padding: 1rem;
-    border-radius: .6rem;
+    padding: 2rem;
+    border-radius: 1rem;
     border: none;
     font-family: var(--font);
     font-weight: 700;
+    font-size: 1.5rem;
+    
 }
 
 .card__btn--pay{
     background-color: var(--primaryBrigBue);
     color: white;
-    box-shadow: 0 .8rem 1rem -1rem black
+    box-shadow: 0 .8rem 1rem -1rem black;
+    
 
 }
 .card__btn--pay:hover{
