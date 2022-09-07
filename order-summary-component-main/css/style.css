@@ -48,7 +48,7 @@ a{
     width: 48rem;
     height: 67rem;
     background-color: white;
-    border-radius: 1rem;
+    border-radius: 1.5rem;
     /* box-shadow: 0px 0px 40px 1px rgba(0,0,0,0.35); */
    
     
@@ -58,8 +58,8 @@ a{
 
 .card__img img{
     width: 100%;
-   border-top-left-radius: 1rem;
-   border-top-right-radius: 1rem;
+   border-top-left-radius: 1.5rem;
+   border-top-right-radius: 1.5rem;
 }
 
 /* Card Text */
@@ -94,7 +94,7 @@ a{
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
     border-radius: 1rem;
-    max-width: 90%;
+    width: 80%;
     
     
 }
@@ -112,7 +112,7 @@ a{
 }
 .card__element--texts h1{
     color: #242f4b;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     font-weight: 900;
     margin: 0;
     display: inline;
@@ -120,7 +120,7 @@ a{
 }
 .card__element--texts p{
     
-    font-size: 1rem;
+    font-size: 1.4rem;
     color: var(--neutralDesaturatedBlue);
     font-weight: 700;
     margin:.5rem 0 0 0;
@@ -135,7 +135,7 @@ a{
 }
 .card__element--change{
     transition: all .3s ease;
-    font-size: 1rem;
+    font-size: 1.4rem;
     font-weight: 700;
     color: var(--primaryBrigBue);
 }
@@ -160,8 +160,8 @@ a{
 .card__btn--pay,
 .card__btn--cancel{
     transition: all .3s ease;
-    padding: 2rem;
-    border-radius: 1rem;
+    padding: 1.5rem;
+    border-radius: 1.4rem;
     border: none;
     font-family: var(--font);
     font-weight: 700;
