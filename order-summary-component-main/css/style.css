@@ -26,7 +26,9 @@ html{
 }
 
 body{
-    background-color:var(--primaryPaleBlue);
+    background-image: url("../images/pattern-background-desktop.svg");
+    background-color: var(--primaryPaleBlue);
+    background-repeat: repeat-x;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -50,6 +52,7 @@ a{
     background-color: white;
     border-radius: 1.5rem;
     /* box-shadow: 0px 0px 40px 1px rgba(0,0,0,0.35); */
+    box-shadow: 0px 1rem 2rem rgba(0, 0, 0, 0.2);
    
     
 }
@@ -70,7 +73,7 @@ a{
 }
 
 .card__text h1{    
-    font-size: 3rem;
+    font-size: 2.8rem;
     margin-top: 4.3rem;
     font-weight: 900;
     color: #242f4b;
@@ -90,7 +93,7 @@ a{
 
 .card__element{
     background-color: var(--neutralVeryPaleBlue);
-    margin: 0 auto;
+    margin: 2rem auto;
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
     width: 80%;
@@ -108,13 +111,13 @@ a{
 }
 
 .card__element--texts{
-    margin: 1rem 0;
+    margin: 2rem 0;
 }
 .card__element--texts h1{
     color: #242f4b;
     font-size: 1.5rem;
     font-weight: 900;
-    margin:.5rem 0 0 2rem;
+    margin:.5rem 0 0 1rem;
     display: inline;
 
 }
@@ -123,7 +126,7 @@ a{
     font-size: 1.5rem;
     color: var(--neutralDesaturatedBlue);
     font-weight: 500;
-    margin:.5rem 0 0 2rem;
+    margin:.5rem 0 0 1rem;
     
     
 }
@@ -149,7 +152,7 @@ a{
 
 /* Buttons */
 .btns{
-    margin: 5rem auto;
+    margin: 4rem auto;
     max-width: 80%;
     display: flex;
     flex-direction: column;
@@ -174,7 +177,7 @@ a{
 .card__btn--pay{
     background-color: var(--primaryBrigBue);
     color: white;
-    box-shadow: 0 .8rem 1rem -1rem black;
+    box-shadow: 0px 1rem 2rem rgba(0, 0, 0, 0.2);
     
 
 }
