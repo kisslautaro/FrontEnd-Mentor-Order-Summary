@@ -71,7 +71,7 @@ a{
 
 .card__text h1{    
     font-size: 3rem;
-    margin-top: 3rem;
+    margin-top: 4.3rem;
     font-weight: 900;
     color: #242f4b;
 }
@@ -81,7 +81,7 @@ a{
     margin: 0 auto;
     width: 70%;
     font-weight: 500;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     line-height: 1.7;
 }
 
@@ -93,8 +93,8 @@ a{
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
-    border-radius: 1rem;
     width: 80%;
+    padding: 1rem;
     
     
 }
@@ -112,18 +112,18 @@ a{
 }
 .card__element--texts h1{
     color: #242f4b;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: 900;
-    margin: 0;
+    margin:.5rem 0 0 2rem;
     display: inline;
 
 }
 .card__element--texts p{
     
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     color: var(--neutralDesaturatedBlue);
-    font-weight: 700;
-    margin:.5rem 0 0 0;
+    font-weight: 500;
+    margin:.5rem 0 0 2rem;
     
     
 }
